@@ -1,4 +1,5 @@
 def main():
+
   running = True
   while running == True:
     print("---- Menu ----")
@@ -22,7 +23,22 @@ def main():
       running = False
 
 def calculaFrequencia():
-  print("Hello from a function")
+  global c
+  c = 3*10^8
+
+  comprimentoLambda = float(input("Digite o comprimento de onda: "))
+  unidade = input("Digite a unidade nm, mm, m ou km: ")
+  
+  if unidade == "nm":
+    frequencia = c / comprimentoLambda
+    print("A frequência é: %.3f nm." %frequencia)
+  elif unidade == "mm":
+    print("calcula mm")
+  elif unidade == "m":
+    print("calcula m")
+  elif unidade == "km":
+    print("calcula km")
+
 
 def calcularNumOnda():
   print("hello 2")
