@@ -31,7 +31,7 @@ def calculaFrequencia():
   
   if unidade == "nm":
     frequencia = c / comprimentoLambda
-    print("A frequência é: %.3f nm." %frequencia)
+    print("A frequência é: %.3f Hz." %frequencia)
   elif unidade == "mm":
     print("calcula mm")
   elif unidade == "m":
