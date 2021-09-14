@@ -27,11 +27,13 @@ def calculaFrequencia():
   c = 3*10^8
 
   comprimentoLambda = float(input("Digite o comprimento de onda: "))
-  unidade = input("Digite a unidade nm, mm, m ou km: ")
+  unidade = input("Digite a unidade nm, um, mm, m ou km: ")
   
   if unidade == "nm":
     frequencia = c / comprimentoLambda
     print("A frequência é: %.3f Hz." %frequencia)
+  elif unidade == "um":
+    print("calcula um")
   elif unidade == "mm":
     print("calcula mm")
   elif unidade == "m":
